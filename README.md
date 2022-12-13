@@ -14,7 +14,7 @@ Before you can start performing **Python** automation testing with **Selenium**,
 
 ### Executing The Test
 
-**Step 5:** You would need to execute the below command in your terminal/cmd.
+You would need to execute the below command in your terminal/cmd.
 
 ```bash
 python demo.py
