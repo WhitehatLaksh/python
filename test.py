@@ -74,7 +74,7 @@ for log in logs:
   
         # Except block will be accessed if any of the
         # following keys are missing.
-            try:
+
             # URL is present inside the following keys
             status = log["params"]["response"]["status"]
   
@@ -85,8 +85,7 @@ for log in logs:
                 four_xx_count += 1
             elif 500 <= status < 600:
                 five_xx_count += 1
-except Exception as e:
-            pass
+
 print(f'Total status code count: {total_count}')
 print(f'Total count for 2XX status codes: {two_xx_count}')
 print(f'Total count for 4XX status codes: {four_xx_count}')
